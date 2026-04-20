@@ -16,3 +16,4 @@ IMAGE_INSTALL += " \
 	linux-firmware-rpidistro-bcm43455 \
 	connman \
 "
+IMAGE_INSTALL:append = " imu-orchestrator"
