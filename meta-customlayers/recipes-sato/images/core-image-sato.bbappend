@@ -12,4 +12,4 @@ IMAGE_INSTALL += " \
     linux-firmware-rpidistro-bcm43455 \
     connman \
 "
-IMAGE_INSTALL:append = " imu-orchestrator drm-hud v4l2-imu-ctrl reactive-imu"
+IMAGE_INSTALL:append = " imu-orchestrator drm-hud v4l2-imu-ctrl reactive-imu dma-consumer"
