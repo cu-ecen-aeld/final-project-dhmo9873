@@ -12,6 +12,8 @@ IMAGE_INSTALL += " \
     libdrm-tests \
     wpa-supplicant \
     linux-firmware \
-    brcmfmac \
+    kernel-module-brcmfmac \
+	linux-firmware-rpidistro-bcm43455 \
 	connman \
 "
+IMAGE_INSTALL:append = " imu-orchestrator"
